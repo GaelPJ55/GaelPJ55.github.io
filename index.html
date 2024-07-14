@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- *titulo buscador navegador portada -->
+    <header>
+        <!-- ? titulo buscador -->
+        <div class="eltunel d-flex justify-content-end  align-items-center">
+            <div class="titulo  w-100">
+                <h1 class="text-center">
+                    El Túnel
+                </h1>
+            </div>
+            <div class="buscador d-flex justify-content-start">
+                <div class="w-50 d-flex justify-content-center">
+                    <input type="text">
+                    <button>
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <div class="iconos w-25 d-flex justify-content-evenly tamic">
+                    <div class="icon-notificacion d-grid">
+                        <i class="mono bi bi-person"></i>
+                    </div>
+                    <div class="icon-notificacion d-grid">
+                        <i class="mono bi bi-heart-fill"></i>
+                        <i class="numero bi num-notificacion bi-5-circle-fill"></i>
+                    </div>
+                    <div class="icon-notificacion d-grid">
+                        <i class="mono bi bi-bag-check-fill"></i>
+                        <i class="numero bi num-notificacion bi-3-circle-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *navegador portada-->
+        <hgroup>
+            <!-- !navegador -->
+            <nav class="navegador">
+                <a href="">Inicio</a>
+                <a href="">Libros</a>
+                <a href="">Los más leidos</a>
+                <a href="">Accesorios</a>
+                <a href="">Sucursal</a>
+            </nav>
+            <!-- ?portada -->
+            <section class="portada">
+                <div>
+                    <h1>...Creando nuevos mundos, historias y</h1>
+                    <h1>recuerdos</h1>
+                    <p>"Vivir consiste en construir futuros recuerdo"</p>
+                </div>
+            </section>
+        </hgroup>
+    </header>
+    <br>
+    <main>
+        <h1 style="color: #911c0d; padding-left: 4%; padding-top: 4%; font-size: 1.5em;">Recomendaciones</h1>
+        <!-- TODO: recomendaciones -->
+        <!-- tener que tener del 100 vw -->
+        <section class="w-100" style="overflow: auto; width: fit-content; justify-content: center;"> 
+            <!-- HACK: w fit-content -->
+            <div class="recom" style="width: fit-content; justify-content: center;">
+                <!-- TODO: tarjetas -->
+                <div class="tarjeta">
+                    <div class="imgs" style="height: 75%;">
+                        <img src="https://imagessl2.casadellibro.com/a/l/t0/52/9788478884452.jpg" alt="" width="100%">
+                    </div>
+                    <div style="height: 25%;">
+                        <h3 class="rh3" style="height: 75%;">Harry Potter y la piedra <br>Filosofal</h3>
+                        <p class="text-center" style="height: 25%;">J. K. Rowling</p>
+                    </div>
+                    <div class="boton">
+                        <button><p>VER MAS</p></button>
+                    </div>
+                </div>
+                
+                <div class="tarjeta">
+                    <div class="imgs" style="height: 75%;">
+                        <img src="https://imagessl9.casadellibro.com/a/l/t0/39/9788420471839.jpg" alt="" width="100%">
+                    </div>
+                    <div style="height: 20%;">
+                        <h3 class="rh3">Cien años de soledad</h3>
+                        <p class="text-center">Gabriel Garcia Márquez</p>
+                    </div>
+                    <div class="boton" style="height: 100%;">
+                        <button><p>VER MAS</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="imgs" style="height: 75%;">
+                        <img src="https://imagessl5.casadellibro.com/a/l/s7/75/9788411070775.webp" alt="" width="100%">
+                    </div>
+                    <div style="height: 25%;">
+                        <h3 class="rh3">La insoportable levedad de ser</h3>
+                        <p class="text-center">Milan Kundera</p>
+                    </div>
+                    <div class="boton" style="height: 5%;">
+                        <button><p>VER MAS</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="imgs" style="height: 75%;" >
+                        <img src="https://imagessl8.casadellibro.com/a/l/t0/88/9788466329088.jpg" alt="" width="100%">
+                    </div>
+                    <div style="height: 20%;">
+                        <h3 class="rh3">Como agua para chocolate</h3>
+                        <p class="text-center">Laura Esquivel</p>
+                    </div>
+                    <div class="boton d-flex" style="height: 5%;">
+                        <button><p>VER MAS</p></button>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+         <!-- TODO: libros -->
+        <h1 style="color: #911c0d; padding-left: 4%; padding-top: 4%; font-size: 1.5em;">Libros</h1>
+        <section class="w-100" style="width: fit-content; justify-content: center; overflow: auto;"> 
+            <!-- HACK: w fit-content -->
+            <div class="libs" style="width: fit-content;">
+                <!-- TODO: LIbros -->
+                <!-- <div class="tarjeta2"> -->
+                    <div class="tarjeta2">
+                        <div class="imgs" >
+                            <img src="https://www.elsotano.com/imagenes_grandes/9786073/978607390465.JPG" alt="" width="100%">
+                        </div>
+                        <div>
+                            <h3 class="rh3">Fuerte es el silencio</h3>
+                            <p class="text-center">Elena Poniatowska</p>
+                        </div>
+                        <div class="boton2" style="height: 24%;">
+                            <div style="display: flex; width: 1em;">
+                                <p style="color: brown; font-size: 75%;">$450.00</p>
+                            </div>
+                            <button><p>COMPRAR</p></button>
+                        </div> 
+                    
+                    </div>
+                <!-- </div> -->
+                
+                <div class="tarjeta2">
+                    <div class="imgs" >
+                        <img src="https://www.elsotano.com/imagenes_grandes/9786071/978607112655.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">Rayuela</h3>
+                        <p class="text-center">Julia Córtazar</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color: brown; font-size: 75%;">$445.00</p>
+                        </div>
+                        <button><p>COMPRAR</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta2">
+                    <div class="imgs" >
+                        <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607076295.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">La ley de Herodes</h3>
+                        <p class="text-center">Jorge ibargüengoitia</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color:    brown; font-size: 75%;">$150.00</p>
+                        </div>
+                        <button><p>COMPRAR</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta2">
+                    <div class="imgs" >
+                        <img src="https://www.elsotano.com/imagenes_grandes/9786073/978607390460.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">Arráncame la vida</h3>
+                        <p class="text-center">Ángeles Mastretta</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color: brown; font-size: 75%;">$350.00</p>
+                        </div>
+                        <button><p>COMPRAR</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta2">
+                    <div class="imgs" >
+                        <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607074392.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">Una habitación propia</h3>
+                        <p class="text-center">Virginia Woolf</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color: brown; font-size: 75%;">$240.00</p>
+                        </div>
+                        <button><p>COMPRAR</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta2">
+                    <div class="imgs"> 
+                        <img src="https://www.elsotano.com/imagenes/9786079/978607927853.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">El doctor Zhivago</h3>
+                        <p class="text-center">Borís Pasternak</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color: brown; font-size: 75%;">$350.00</p>
+                        </div>
+                        <button><p class="p2">COMPRAR</p></button>
+                    </div>
+                </div>
+
+                <div class="tarjeta2">
+                    <div class="imgs" >
+                        <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607074029.JPG" alt="" width="100%">
+                    </div>
+                    <div>
+                        <h3 class="rh3">Ana Karenina</h3>
+                        <p class="text-center">Liev N. Tolstói</p>
+                    </div>
+                    <div class="boton2">
+                        <div style="display: flex; width: 1em;">
+                            <p style="color: brown; font-size: 75%;">$350.00</p>
+                        </div>
+                        <button><p class="p2">COMPRAR</p></button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        <!-- segunda parte del main -->
+        <section>
+            <section class="conocenos">
+                <div class="cono1">
+                    <h2>Conocenos</h2>
+                    <p>El Tunel es una cafeteria ideal para los amantes de la literatura.</p>
+                    <p>Ademas de un servicio de venta de libros y productos en linea puedes visitar nuestra sucursal y acompañar tu lectura con una taza de café o bebida de tu eleccion, o bien disfrutar de los diversos eventos sulturales que tenemos para ti.</p>
+                    <p>Siguenos en redes sociales y mantente atento a la cartelera de eventos.</p>
+                    <div  class="p4">
+                        <p>¡Te esperamos!</p>
+                    </div>
+                </div>
+                <div class="cono2">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer" style="margin: 0% 1% 0% 1%;">
+            <div class="con1" style="margin: 1%; width: 100%;">
+                <h6>El Tunel</h6>
+                <div style="background-color: white; height: 1px;"></div>
+                <h9>Un espacio para los amantes de la literatura. Encuentre la mejor seleccion de libros. accesorios y un acogedor espacio en la CDMX para leer y tomar un café con tu libro favorito </h9>
+                <br>
+                <div style="display: flex;">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>Av. Alvaro obregon 90, Cuauhtemóc, 06700 Ciudad de México, CDMX</p>
+                </div>
+                <div style="display: flex;">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>56 98 89 07 99 87</p>
+                </div>
+                <div style="display: flex;">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p>eltunel.libros@gmail.com</p>
+                </div>
+                <div class="icon_contendor" style="display: flex; justify-content: center;">
+                    <i class="bi bi-facebook" style="margin: 1px;"></i>
+                    <i class="bi bi-twitter-x " style="margin: 1px;"></i>
+                    <i class="bi bi-instagram" style="margin: 1px;"></i>
+                    <i class="bi bi-youtube" style="margin: 1px;"></i>
+                </div>
+            </div>
+            <div class="con2" style="margin: 1%;">
+                <h6>Informacion</h6>
+                <div style="background-color: white; height: 1px;"></div>
+                <hgroup class="nav2">
+                    <nav style="display: flex; flex-direction: column;">
+                        <a href="">Inicio</a>
+                        <a href="">Acerca de El Túnel</a>
+                        <a href="">Tarjeta de cliente frecuente</a>
+                        <a href="">Ventas por mayoreo</a>
+                        <a href="">Facturacion</a>
+                        <a href="">Contáctanos</a>
+                        <a href="">Aviso de privacidad</a>
+                        <a href="">Terminos y condiciones</a>
+
+                    </nav>
+                </hgroup>
+            </div>
+            <div class="con3" style="margin: 1%; width: 100%;">
+                <h6>Suscribete</h6>
+                <div style="background-color: white; height: 1px;"></div>
+                <p>Registrate para recibir noticias de promociones, eventos y actualizaciones</p>
+                <div>
+                    <input class="Bucador2" type="text" style="width: 50%;">
+                    <button style="color: white; background-color: #911c0d; height: 30px; display: inline-block; border: none; margin: 0px;">
+                        <p>Enviar</p>
+                    </button>
+                </div>
+            </div>
+            
+    </footer>
+    <div style="background-color: #B69A76; color: white; margin: 0% 1% 1% 1%; text-align: center;">
+        <p>2024 <i class="bi bi-c-circle"></i> El Túnel. Todos los derechos Reservados. | Diseñado por Escuela de Código ADIP</p>
+    </div>
+    
+    
+</body>
+</html>
